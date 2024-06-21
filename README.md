@@ -1,4 +1,5 @@
 # SQL-Sales-Analysis
+
  The SQL project for sales data analysis is created as part of my portfolio.The database contains the structure of customers, products, orders and order details. This project demonstrates my skills in database design and creating effective SQL queries.
 
 
@@ -10,44 +11,36 @@ Database Structure
 
 The project comprises the following tables:
 
-customers: A table containing customer data including customer ID, name, address, email, phone number, etc.
-products: A table containing product data including product ID, product name, category, unit price, inventory level, etc.
-orders: A table containing order data including order ID, order date, customer ID, order status, total amount, etc.
-transactions: A table containing transaction data including transaction ID, order ID, payment method, transaction date, transaction amount, etc.
+Customers Table:
+Stores customer details including customer ID, customer name, email, and phone number.
 
-Questions Addressed in This Project
+Products Table:
+Manages product information such as product ID, product name, category, and unit price.
 
-Customer Analysis
+Orders Table:
+Tracks order specifics such as order ID, customer ID, order date, with references to the Customers table for customer details.
 
-What are the most common age categories of customers making purchases?
-How often do customers make repeat purchases?
-Which customer groups generate the highest revenue?
+Order Details Table:
+Contains detailed information about products within orders, including order detail ID, order ID, product ID, quantity, and unit price.
 
-Product Analysis
+Each table includes primary keys and foreign keys to maintain data integrity. Sample data has been inserted into the Customers, Products, Orders, and Order Details tables to illustrate the database structure and functionality.
 
-Which products are frequently purchased together (market basket analysis)?
-Which products generate the highest revenue?
+Questions and Problems to Address in This Project
 
-Order Analysis
+1) What are the names of all products in our inventory?
+2) Which order has the highest total value?
+3) Who is our newest customer?
+4) How many laptops were ordered in the latest order?
+5) What are the details of product ID 3 in order ID 1?
+6) What is the total number of orders?
+7) What is the average order value?
+8) Which customer has placed the most orders?
+9) What are all the product categories we offer?
+10) Which product is the least expensive?
+11) What is the average quantity of products ordered per order?
+12) Which customer has the highest total expenditure across all orders?
+13) What is the total revenue generated from orders placed in the month of June 2024?
+14) Which product category has the highest average price?
+15) Can you identify any correlations between order quantities and product prices? 
 
-What are the most popular days of the week/month for purchases?
-What are the average and maximum order values?
-
-Transaction Analysis
-What is the average transaction value across different product categories?
-What are the most common payment methods?
-
-Business Performance
-Which product categories are the most profitable?
-How does sales performance change over time (month-over-month, year-over-year)?
-
-Customer Segmentation
-What are the differences in purchasing behaviors between new and returning customers?
-Can customer segments be identified based on their purchasing behaviors?
-
-Market Basket Analysis
-Which products are frequently purchased together in the same transaction?
-
-Recommendation Systems
-What products can be recommended to customers based on their past purchases?
-
+In case of any questions please contact me: kamil.jodlowski.work@gmail.com 
