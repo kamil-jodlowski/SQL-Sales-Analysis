@@ -1,18 +1,12 @@
 -- Client table
-CREATE TABLE customers
-products
-orders
-order_details (
+CREATE TABLE customers (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
     customer_name VARCHAR(100),
     email VARCHAR(100),
     phone VARCHAR(20)) ;
     
 -- Product table 
-CREATE TABLE customers
-products
-orders
-order_details (
+CREATE TABLE products (
     product_id INT AUTO_INCREMENT PRIMARY KEY,
     product_name VARCHAR(100),
     category VARCHAR(50),
@@ -20,10 +14,7 @@ order_details (
 );
 
 -- Orders table
-CREATE TABLE customers
-products
-orders
-order_details (
+CREATE TABLE orders (
     order_id INT AUTO_INCREMENT PRIMARY KEY,
     customer_id INT,
     order_date DATE,
@@ -31,10 +22,7 @@ order_details (
 );
 
 -- Order details table
-CREATE TABLE customers
-products
-orders
-order_details (
+CREATE TABLE order_details (
     order_detail_id INT AUTO_INCREMENT PRIMARY KEY,
     order_id INT,
     product_id INT,
