@@ -39,8 +39,6 @@ Questions and Problems to Address in This Project
 10) Which product is the least expensive?
 11) What is the average quantity of products ordered per order?
 12) Which customer has the highest total expenditure across all orders?
-13) What is the total revenue generated from orders placed in the month of June 2024?
-14) Which product category has the highest average price?
-15) Can you identify any correlations between order quantities and product prices? 
+13) What is the total revenue generated from orders placed in the month of June 2024? 
 
 In case of any questions please contact me: kamil.jodlowski.work@gmail.com 
